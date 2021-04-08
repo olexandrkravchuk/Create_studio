@@ -1,0 +1,309 @@
+body {
+    margin: 0;
+    
+    font: 12px/1.6 Arial, sans-serif;
+    color: #5d5d5d;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.top_line {
+    background: #090909;
+    height: 17px;
+}
+
+/*Container========================================
+===============================================*/
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/*Header========================================
+===============================================*/
+.header {
+    
+}
+
+.header__inner {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    border-bottom: 1px solid #f4f4f4;
+}
+
+/*Nav========================================
+===============================================*/
+.nav {
+    
+    display: flex;
+    
+}
+#active {
+    color: black;
+}
+
+.nav__link {
+    margin-left: 65px;
+    color: #fe9b00;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    opacity: .55;
+    
+    transition: opacity 1s linear;
+    
+}
+
+.nav__link:hover {
+    opacity: 1;
+}
+.nav__link:first-child {
+    margin-left: 0;
+}
+
+/*Intro==============================================
+=====================================================*/
+.intro {
+    height: 400px;
+    background: url(../img/8-layers.jpg) no-repeat;
+    margin-top: 20px;
+    border-bottom: 1px solid #f4f4f4;
+    position: relative;
+    
+}
+
+.black__box {
+    display: flex;
+    width: 442px;
+    height: 43px;
+    background: #090909;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 400;
+    color: #838282;
+    position: absolute;
+    left: 35px;
+    bottom: 65px;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.viewport {
+    color: #f69600;
+    text-decoration: none;
+    margin-left: 74px;
+}
+
+.viewport:hover {
+    color: yellow;
+}
+
+
+.content {
+ display: flex;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #f4f4f4;   
+}
+
+
+.box {
+    margin-left: 55px;
+    
+    width: 280px;
+    height: 270px;
+    
+}
+
+.box:first-child {
+    margin-left: 0;
+    
+}
+
+.box h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    color: #090909;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f4f4f4;
+   
+    
+}
+
+a {
+    color: #fe9f0b;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.rrr {
+    margin-left: -40px;
+    
+}
+
+
+.box li {
+    list-style-type: none;
+    background: url(../img/P_copy_2.png) 0 3px no-repeat;
+    padding-left: 28px;
+    margin-bottom: 19px;
+  
+}
+.rafi {
+    font-style: italic;
+    color: #090909;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    color: #090909;
+}
+
+h3 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #090909;
+    
+}
+
+.portfolio {
+    padding-bottom: 43px;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.portfolio__img {
+    position: relative;
+    
+}
+
+.portfolio__img a {
+    position: absolute;
+    right: 0;
+    bottom: 6px;
+    color: #090909;
+    font-weight: 400;
+    display: block;
+    background: #fe9b00;
+    padding: 7px 7px 5px 11px;
+    line-height: 1;
+}
+
+.portfolio__img a:hover {
+    color: yellow;
+}
+
+
+
+
+.bottom__row {
+    display: flex;
+   
+    margin-top: 25px;
+}
+
+
+.social {
+    margin-left: 83px;
+   
+    
+}
+
+.blog {
+    width: 658px;
+}
+
+.abz {
+    text-align: left;
+}
+
+.social ul li {
+    list-style: none;
+    margin-left: 14px;
+    
+}
+
+
+
+.set {
+    display: flex;
+    justify-content: center;
+    margin-left: -50px;
+   
+}
+
+.footer {
+    
+    height: 105px;
+    background:#e2e2e2; 
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    padding-top: 20px;
+    
+}
+
+.navigat a {
+    text-transform: capitalize;
+    color: #5d5d5d;
+    border-left: 1px solid grey;
+    padding: 0 7px;
+}
+
+.navigat a:first-child {
+    border: none;
+    padding-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
